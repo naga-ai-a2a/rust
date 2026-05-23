@@ -13,12 +13,22 @@ The short and sweet way ...
 ./compile-run.sh hello-world
 ./compile-run.sh immutable-variable
 ./compile-run.sh mutable-variable
+./compile-run.sh vec
 ./compile-run.sh genai <prompt>
 ```
 A little lengthier way ...
 ```
-./compile-run.sh src/hello-world.rs # the .rs is optional
-./compile-run.sh src/immutable-variable.rs # the .rs is optional
-./compile-run.sh src/mutable-variable.rs # the .rs is optional
-./compile-run.sh src/genai.rs <prompt> # the .rs is optional
+./compile-run.sh src/hello-world
+./compile-run.sh src/immutable-variable
+./compile-run.sh src/mutable-variable
+./compile-run.sh src/vec
+./compile-run.sh src/genai <prompt>
+```
+The full length way ...
+```
+./compile-run.sh src/hello-world.rs
+./compile-run.sh src/immutable-variable.rs
+./compile-run.sh src/mutable-variable.rs
+./compile-run.sh src/vec.rs
+./compile-run.sh src/genai.rs <prompt>
 ```
