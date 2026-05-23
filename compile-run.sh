@@ -2,11 +2,11 @@
 
 # compile-run.sh
 
-if [ $# -ne 1 ]; then
-    printf "\n\tNeed Arg: <package>\n\n"; exit 1
+if [ $# -eq 0 ]; then
+    printf "\n\tNeed Arg: <package> [prompt]\n\n"; exit 1
 fi
 
-bn=`basename $1 .rs`; fn=src/$bn.rs
+bn=`basename $1 .rs`; fn=src/$bn.rs; tn=toml/$bn.toml
 
 ls $fn >/dev/null 2>&1
 
@@ -22,4 +22,6 @@ rm -fr $bn; cargo new $bn
 
 cp $fn $bn/src/main.rs
 
-(cd $bn; echo; cargo run; echo)
+[ -f $tn ] && cp $tn $bn/Cargo.toml
+
+shift; (cd $bn; echo; cargo run "$@"; echo)
