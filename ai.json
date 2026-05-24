@@ -1,0 +1,29 @@
+{
+  "Prompt": "In the context of AI language models, a prompt is the input or query given to the model to generate a response. It can consist of text, questions, or any type of instruction that guides the model in producing the desired output",
+
+  "GenAI (Generative AI)": "Generative AI refers to artificial intelligence systems that can generate new content, such as text, images, music, etc. These systems create outputs based on patterns learned from training data, allowing them to produce novel and creative variations",
+
+  "LLM (Large Language Model)": "LLMs are a class of AI models designed to understand and generate human-like text based on massive amounts of data. They are characterized by their large number of parameters and ability to perform various tasks such as translation, summarization, and question-answering",
+
+  "RAG (Retrieval-Augmented Generation)": "RAG is an approach that combines retrieval and generation. It involves first retrieving relevant information or documents from a database and then using that information to generate coherent and contextually relevant responses or content. This can enhance the quality of generated outputs in tasks requiring factual knowledge",
+
+"Agentic": "An agentic AI system refers to an AI that has the capability to act autonomously in a given environment. This term can denote systems that make decisions, interact with users or other systems, and perform tasks on their own based on learned rules or objectives",
+
+"A2A (Agent to Agent)": "A2A describes interactions between multiple AI agents, where one AI agent communicates or collaborates with another to achieve specific goals. This can involve cooperation, negotiation, or competition among agents",
+
+"Transformer Architecture": "The Transformer is a type of neural network architecture introduced in the paper 'Attention is All You Need' It relies on self-attention mechanisms to process sequences of data (like text) and has become a foundational model for many state-of-the-art natural language processing tasks. Transformers are known for their ability to handle long-range dependencies in data",
+
+"Hallucinations": "In the context of AI language models, 'hallucinations' refer to instances where the model generates information that is false, misleading, or nonsensical, but presents it confidently as if it were true. This is a recognized limitation of current AI systems and poses challenges in contexts requiring accurate information",
+
+"Tokens": " Tokens are the basic units of text that a language model processes. In natural language processing, a token can be a word, part of a word, or even a punctuation mark. The model breaks down input text into tokens to understand and generate responses",
+
+"Embeddings": " Embeddings are dense vector representations of words or phrases, capturing their meanings and relationships in a continuous vector space. They are used by models to represent textual data in a way that facilitates mathematical operations, enabling better understanding and generation of language",
+
+"Reasoning": " Reasoning refers to the cognitive process of drawing conclusions, making inferences, and solving problems based on given information or knowledge. In AI, reasoning capabilities allow models to engage in tasks requiring logical deductions, assessments, and contextual understanding",
+
+"Inference": "Inference is the process through which a model makes predictions or draws conclusions based on its learned knowledge and the input it receives. In the context of LLMs, inference involves using the model to generate responses or outputs based on prompts, employing the patterns and information learned during training",
+
+  "Summary": "These concepts are integral to understanding the capabilities, limitations, and functioning of modern AI systems, especially in natural language processing and generation tasks"
+}
+
+
