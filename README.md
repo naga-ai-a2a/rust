@@ -9,7 +9,7 @@
  * Deep knowledge of the constructs helps in managing the memory (stack, heap) efficiently and thus improving performance
  * [The Rust Book](https://doc.rust-lang.org/book/) is a great resource, very well documented
 
-## Running
+## Running the code snippets in this repo
 The short and sweet way ...
 ```
 ./compile-run-one.sh hello-world
