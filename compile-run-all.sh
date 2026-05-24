@@ -16,8 +16,6 @@ for f in src/*; do
 
   echo; cat -n $fn; echo
 
-  trap "rm -fr $bn" EXIT SIGINT SIGTERM
-
   rm -fr $bn; cargo new $bn
 
   cp $fn $bn/src/main.rs
@@ -30,6 +28,7 @@ for f in src/*; do
       cargo run $model $prompt
     else
       cargo run
-    fi )
+    fi 
+    rm -fr ../$bn )
 
 done | tee compile-run-all.out
