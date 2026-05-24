@@ -11,7 +11,7 @@ bn=`basename $1 .rs`; fn=src/$bn.rs; tn=toml/$bn.toml
 ls $fn >/dev/null 2>&1
 
 if [ $? -eq 0 ]; then
-    echo; cat $fn; echo
+    echo; cat -n $fn; echo
 else
     printf "\n\tNo such file: $fn\n\n"; exit 1
 fi
