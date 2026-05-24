@@ -6,6 +6,8 @@
  * Like Go, it is a modern well-designed language
  * Traps 99.99% of all possible issues at compile-time itself
  * It is like a stick-shift car, so great (and necessary) user-control on the runtime (memory, etc)
+ * Deep knowledge of the constructs helps in managing the memory (stack, heap) efficiently and thus improving performance
+ * [The Rust Book](https://doc.rust-lang.org/book/) is a great resource, very well documented
 
 ## Running
 The short and sweet way ...
