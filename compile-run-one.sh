@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-# compile-run.sh
+# compile-run-one.sh
+
+cd `dirname $0`
 
 if [ $# -eq 0 ]; then
     printf "\n\tNeed Arg: <package> [prompt]\n\n"; exit 1
