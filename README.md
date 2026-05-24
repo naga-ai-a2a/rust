@@ -42,5 +42,5 @@ The full length way ...
 ```
 To run all ...
 ```
-./compile-run-all.sh <model> <prompt>
+./compile-run-all.sh <model> <prompt> # `model` and `prompt` are needed only for the `genai` package
 ```
