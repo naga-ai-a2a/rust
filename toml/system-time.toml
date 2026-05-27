@@ -1,9 +1,8 @@
 [package]
-name = "top"
+name = "genai-with-rust"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-chrono = "0.4.44"
-fmt = "0.1.0"
 humantime = "2.3.0"
+chrono = "0.4.44"
